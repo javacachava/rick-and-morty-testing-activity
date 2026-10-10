@@ -11,7 +11,7 @@
 !.yarn/versions
 
 # testing
-/coverage
+# /coverage is intentionally committed (HTML report is a deliverable)
 
 # next.js
 /.next/

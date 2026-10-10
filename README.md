@@ -77,3 +77,16 @@ La forma más sencilla de desplegar esta aplicación es utilizando [Vercel](http
 - [x] Enrutamiento cliente-servidor (Next.js).
 - [x] Diseño Responsive.
 - [x] Loading states y manejo de errores.
+
+## 🧪 Pruebas
+
+Pruebas unitarias con Vitest + Testing Library (jsdom).
+
+```bash
+pnpm install
+pnpm vitest run --coverage   # ejecuta la suite y genera el reporte en coverage/
+```
+
+- Configuración: `vitest.config.ts` (umbral mínimo de 80% en statements, branches, functions y lines).
+- Reporte HTML: `coverage/index.html`.
+- Captura del resumen en consola: `evidence/coverage-summary.png`.
